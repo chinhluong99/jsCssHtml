@@ -1,0 +1,29 @@
+.content{
+  width: 250px;
+  height: 362px;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  background: #2d3436;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0px;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  color: #b2bec3;
+  border: 1px solid gray;
+  background: rgba(255,255,255,0.4);
+  box-shadow: rgba(0,0,0,0.3) 2px 2px 20px 0px;
+}
+a:hover{
+  background: gray;
+  color: #e84393;
+  margin: 1.7px;
+  transition: 0.5s;
+  background:rgba(255,255,255,0.5);
+  box-shadow: rgba(255,255,255,0.3) 2px 2px 20px 0px;
+}

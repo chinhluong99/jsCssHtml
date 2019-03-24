@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tính tiền thưởng cuối năm</title>
+  <script type="text/javascript" src="js/tienThuong.js"></script>
+</head>
+<body>
+  <form action="" name="thuong">
+    <table>
+      <thead>
+        <caption>Tính tiền thưởng cuối năm</caption>
+      </thead>
+      <tfoot></tfoot>
+      <tbody>
+        <tr>
+          <td>Tiền lương</td>
+          <td>
+            <input type="text" name="mo" id="mo" size="8">
+          </td>
+        </tr>
+        <tr>
+          <td>Xếp loại</td>
+          <td>
+            <select name="xl" id="xl">
+              <option value="A" selected>Loại A</option>
+              <option value="B">Loại B</option>
+              <option value="C">Loại C</option>
+              <option value="D">Loại D</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="button" name="tinh" value="TÍNH" onclick="kq.innerText=tienThuong(tl.value,xl.value);">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label name="kq" id="kq"></label>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</body>
+</html>

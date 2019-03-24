@@ -1,0 +1,81 @@
+.text-1{
+  font-size: 20px;
+}
+.text-2{
+  font-size: 25px;
+}
+.color{
+    color: crimson;
+}
+body{
+  font-family: Nunito,Nunito-Sans,Open-Sans,Pacifico,Quicksand,sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+    background: url(../img/school/school.png);
+    color: #ff9f1a;
+}
+.content{
+    margin: 20px auto;
+    padding: 15px;
+    border: 5px solid orange;
+    border-radius: 10px;
+    width: 420px;
+    padding: 5px;
+    height: 300px;
+    position: relative;
+}
+.line-height{
+    line-height: 45px;
+}
+input[type="text"]{
+    width: 65px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 3px solid orange;
+    border-radius: 10px;
+    outline: none;
+    transition:0.8s ease-in-out;
+    position: absolute;
+    right: 195px;
+}
+input[type="text"]:focus{
+    width: 100px;
+    background-color: #f7d794;
+}
+input[type="button"]{
+    position: absolute;
+    right: 220px;
+    border: 3px solid orange;
+    color: crimson;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    font-family: Nunito,Nunito-Sans,Open-Sans,Pacifico,Quicksand,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    transition:0.4s ease-in-out;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: #f7d794;
+    color: blue;
+}
+input[type="reset"]{
+    position: absolute;
+    right: 50px;
+    border: 3px solid orange;
+    color: crimson;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: Nunito,Nunito-Sans,Open-Sans,Pacifico,Quicksand,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    transition:0.4s ease-in-out;
+}
+input[type="reset"]:hover{
+    cursor: pointer;
+    background-color: #f7d794;
+    color: blue;
+}

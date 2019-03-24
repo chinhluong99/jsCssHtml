@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính phương trình bậc 2</title>
+    <link rel="stylesheet" href="css/phuongTrinhBac2.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans|Open+Sans|Pacifico|Quicksand" rel="stylesheet"> 
+    
+    <!--Lưu ý: Nên tải các font-family: Nunito, Nuito-Sans, Open-Sans, Pacifico, Quicksand từ google fonts để xem 1 cách hoàn chỉnh nhất -->
+    
+    <script language="javascript" src="js/nu.js"></script>
+    <script language="javascript" src="js/phuongTrinhBac2.js"></script>
+</head>
+<body>
+   <div class="position">
+    <form action="" name="phuongTrinhBac2">
+        <table class="content">
+            <thead>
+                <caption><span class="text-2">Tính phương trình bậc 2
+                    <br>aX<sup>2</sup> + bX + c = 0
+                </span></caption>
+            </thead>
+            <tfoot></tfoot>
+            <tbody>
+                <tr>
+                    <td class="line-height">Nhập hệ số a</td>
+                    <td>
+                        <input type="text" name="hs1" id="hs1" size="8" placeholder="Mời nhập" autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-height">Nhập hệ số b</td>
+                    <td>
+                        <input type="text" name="hs2" id="hs2" size="8" placeholder="Mời nhập">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-height">Nhập hệ số c</td>
+                    <td>
+                        <input type="text" name="hs3" id="hs3" size="8" placeholder="Mời nhập">
+                    </td>
+                </tr>
+                <tr class="line-height">
+                    <td>Delta</td>
+                    <td>
+                        <label for="del" id="del"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nghiệm X<sub>1</sub></td>
+                    <td>
+                        <label for="n1" id="n1"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nghiệm X<sub>2</sub></td>
+                    <td>
+                        <label for="n2" id="n2"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <input type="button" name="tinhToan" value="ĐÁP ÁN" onclick="del.value = phuongTrinhBacHai(hs1.value,hs2.value,hs3.value);">
+                  </td>
+                  <td>
+                    <input type="reset" name="reset" value="RESET">
+                  </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
+</body>
+</html>
