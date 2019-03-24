@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text');
+
+body{
+  width: 90vw;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 90%;
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+ul{
+  padding: 0;
+}
+.text-size-1{
+  font-size: 1rem;
+}
+.text-size-2{
+  font-size: 1.4rem;
+}
+.text-size-3{
+  font-size: 2rem;
+}
+.text-size-4{
+  font-size: 3rem;
+}
+.text-bold{
+  font-weight: 700;
+}
+.text-italic{
+  font-style: italic;
+}
+.text-center{
+  text-align: center;
+}
+#image{
+  width: 100%;
+}
+#image-caption{
+  margin: auto 10%;
+}
+.quote{
+  maring-left: 10%;
+}
+#content{
+  margin: 140px 7%;
+  background: #ffdd59;
+  padding: 5%;
+}
+#img-div{
+  margin: 3%;
+  background: white;
+  padding: 6px;
+}
+#tribute-info{
+  margin: auto 10%;
+  padding: 15px 10%;
+}
+@media screen and (max-width: 650px){
+  #img-div, #tribute-info{
+    margin: 1%;
+    padding: 1%;
+  }
+  #content{
+    margin: 100px 2%;
+  }
+  .text-size-3, .text-size-4{
+    font-size: 1.5rem;
+  }
+}
+
