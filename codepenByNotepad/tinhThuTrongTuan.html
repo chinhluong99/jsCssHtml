@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans|Open+Sans|Pacifico|Quicksand" rel="stylesheet">
+  <!--cần thêm link .css và .js vào-->
+  <title>In lịch</title>
+</head>
+<body>
+  <form action="" name="inLich">
+  <table class="content">
+    <thead>
+      <caption>IN LỊCH TRONG NĂM
+      <br>(mặc định thế kỉ 21)</caption>
+    </thead>
+    <tfoot></tfoot>
+    <tbody>
+      <tr>
+        <td>
+          <label name="lich" id="lich" class="label"></label>
+        </td>
+      </tr>
+      <tr>
+        <td class="p1">
+          ngày
+          <br><input type="text" name="d" id="d" size="2" placeholder="Enter">
+        </td>
+        <td class="p2">
+          tháng
+          <br><input type="text" name="m" id="m" size="2" placeholder="Enter">
+        </td>
+        <td class="p3">
+          năm
+          <br><input type="text" name="y" id="y" size="4" placeholder="Enter">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="button" name="inlich" value="IN LỊCH" onclick="lich.innerHTML=week(d.value,m.value,y.value);">
+        </td>
+        <td>
+            <input type="reset" name="reset" value="RESET">
+          </td>
+      </tr>
+      <tr>
+        <td><p class="logo">&#60;Code by dinhChinh&#62;</p></td>
+      </tr>
+    </tbody>
+  </table>
+    
+    </form>
+  <!--<p class="logo">&#60;Code by dinhChinh&#62;</p>-->
+</body>
+</html>
