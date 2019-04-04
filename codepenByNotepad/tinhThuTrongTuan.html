@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans|Open+Sans|Pacifico|Quicksand" rel="stylesheet">
-  <!--cần thêm link .css và .js vào-->
   <title>In lịch</title>
 </head>
 <body>
@@ -38,7 +37,7 @@
       </tr>
       <tr>
         <td>
-          <input type="button" name="inlich" value="IN LỊCH" onclick="lich.innerHTML=week(d.value,m.value,y.value);">
+          <input type="button" name="inlich" value="IN LỊCH" onclick="lich.innerText=week(d.value,m.value,y.value);">
         </td>
         <td>
             <input type="reset" name="reset" value="RESET">
@@ -52,5 +51,7 @@
     
     </form>
   <!--<p class="logo">&#60;Code by dinhChinh&#62;</p>-->
+  
+  <!--them file .css va .js tai day-->
 </body>
 </html>
