@@ -66,6 +66,6 @@ const week = (d, m, y) => {
     return today;
   } else {
     alert("Kí tự bạn nhập không phải số!!!");
-    lich.innerHTML = "VUI LÒNG NHẬP LẠI!!!";
+    return "VUI LÒNG NHẬP LẠI!!!";
   }
 };
