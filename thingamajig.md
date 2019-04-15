@@ -18,6 +18,7 @@
 <li><a href="#the-thing-a-ma-jig-is-quite-a-contraption-it-clanks-and-clunks-and-even-thunks-but-what-it-really-does-well-youve-got-us-stumped.-coders-claim-they-know-how-it--works.-can-you-uncrack-the-code-and-find-its-quirks">The Thing-A-Ma-Jig is quite a contraption-it clanks and clunks and even thunks, but what it really does, well, you’ve got us stumped. Coders claim they know how it  works. Can you uncrack the code and find its quirks?</a></li>
 </ul>
 </li>
+<li><a href="#jdijasdfsdfjalj">jdijasdfsdfja;lj</a></li>
 </ul>
 
     </div>
@@ -55,6 +56,7 @@ thingamajig(5);
 console.log(clunkCounter);
 </code></pre>
 <p><strong>We recommed passing the Thing-A-Ma-Jig the numbers 0,1,2,3,4,5, etc. See if you know what it’s doing.</strong></p>
+<h1 id="jdijasdfsdfjalj">jdijasdfsdfja;lj</h1>
 
     </div>
   </div>
