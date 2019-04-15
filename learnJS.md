@@ -67,7 +67,7 @@ cameraOn = true;</p>
 false</p>
 </blockquote>
 <p>Có nghĩa là nó sẽ lấy giá trị cameraOn ban đầu vì khi <em>return</em> trả về thì nó sẽ không quan tâm các lệnh bên dưới func nữa</p>
-<h2 id="compare-var-let-and-const--variable">Compare: <em>var</em>, <em>let</em> and <em>const</em>  variable</h2>
+<h2 id="compare-var-let-and-const--variable">Compare: <em>var</em>, <em>let</em> and <em>const</em>  variables</h2>
 <h3 id="const-variable"><em>Const</em> variable</h3>
 <p>Được dùng để khai báo 1 hằng số - 1 giá trị không thay đổi trong suốt quá trình chạy</p>
 <pre><code>const A = 5;
